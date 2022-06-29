@@ -1,0 +1,111 @@
+body {
+  background-color: #242424;
+  font-family: "Montserrat", sans-serif;
+  color: #ced3cf;
+  margin: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.centralizacao {
+  text-align: center;
+}
+
+.foto {
+  width: 200px;
+  border: 3px solid #d3d0d0;
+  border-radius: 50%;
+  margin: 30px 30px 0;
+  box-shadow: 0px 0px 12px rgb(86, 86, 86);
+  animation: backInDown;
+  animation-duration: 2s;
+}
+
+.redes-links {
+  text-decoration: none;
+}
+
+.redes {
+  width: 40px;
+  animation: fadeInUpBig;
+  animation-duration: 2s;
+}
+
+.github {
+  margin: 0 15px 0 15px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  letter-spacing: -1px;
+  font-size: 33px;
+  animation: backInUp;
+  animation-duration: 2s;
+}
+
+h2 {
+  margin-top: 0;
+  font-style: italic;
+  color: #989898fe;
+  font-weight: 100;
+  letter-spacing: -1px;
+  animation: backInUp;
+  animation-duration: 2s;
+}
+
+p {
+  animation: lightSpeedInRight;
+  animation-duration: 2s;
+}
+
+h3 {
+  animation: lightSpeedInRight;
+  animation-duration: 2s;
+}
+ul {
+  animation: lightSpeedInRight;
+  animation-duration: 2s;
+}
+
+h4 {
+  margin-bottom: 0;
+  font-size: 18px;
+  padding-left: 0px;
+  font-weight: 600;
+  animation: lightSpeedInRight;
+  animation-duration: 2s;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-left: 0px;
+  font-weight: 100;
+  font-size: 18px;
+  animation: lightSpeedInRight;
+  animation-duration: 2s;
+}
+
+.curso {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+  padding-left: 0px;
+  font-weight: 100;
+  animation: lightSpeedInRight;
+  animation-duration: 2s;
+}
+
+.footer {
+  margin-top: 40px;
+  background-color: rgb(110, 96, 96);
+  color: #ced3cf;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0;
+  animation: zoomIn;
+  animation-duration: 2s;
+}
